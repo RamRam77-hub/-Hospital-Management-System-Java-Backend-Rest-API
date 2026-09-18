@@ -1,7 +1,8 @@
 # -Hospital-Management-System-Java-Backend-Rest-API
 I designed components for a website's application healthcare administration system. These modules covered patient information, appointments, billing, and medical records, resulting in better administrative efficiency and simpler data administration. Implementing CRUD API methods.
 
-Tech-Stack –
+**Tech-Stack** –
+
 Core Java
 Java 8 features
 Hibernate JPA
@@ -13,7 +14,8 @@ Spring Security
 IntelliJ Idea
 MySQL Workbench.
 **** Set up HMS project using Spring Initializer online ****
-I follow below steps:
+**I follow below steps:**
+
 Visited the Spring Initializer website at https://start.spring.io.
 Providing the necessary project details:
 Project- Maven and language- Java.
@@ -33,7 +35,9 @@ Add "Spring Security" dependency.
 Click on the "Generate" button to download the project zip file.
 Extract the downloaded zip file to the desired location on the computer folder.
 Opened IntelliJ IDEA IDE.
-Import the project as a Maven project:
+
+**Import the project as a Maven project:**
+
 Select "Import Project" from the IDE's welcome screen or "File" -> "New" -> "Project from Existing Sources" if already open.
 Browse to the extracted project folder and select the "pom.xml" file.
 Click "OK" to import the project.
@@ -46,8 +50,10 @@ Modify the spring.datasource.url, spring.datasource.username, and spring.datasou
 Start the MySQL server using MySQL Workbench and Run the project:
 Find the main class, typically annotated with @SpringBootApplication.
 Right-click on the main class and select "Run" or "Debug" to start the application.
-Endpoints
-Endpoints The following endpoints are available:
+
+**Endpoints**
+**Endpoints The following endpoints are available:**
+
 POST /api/patients - Create a new patient
 [GET /api/appointment/{id}](#get-api appointment id) - Get appointment by ID.
 [GET /api/appointment](#get-api appointment) - Get a list of appointments.
